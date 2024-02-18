@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #0a0e13c7;
+    padding: 10px;
+}
+
+.menu {
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 25px;
+}
+
+.menu__item {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 900;
+    border-bottom: 2px solid transparent;
+}
+
+.menu__item:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.row {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+.product__card {
+    padding: 30px;
+    background-color: #123536d8;
+    color: #6d6767;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.price {
+    font-style: italic;
+    text-align: right;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.btn {
+    padding: 5px 15px;
+    background-color: #fff;
+    color: #000;
+}
+
+.btn:hover {
+    background-color: #01e727;
+    color: #fff;
+}
+
+.cart__row {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Cart styles */
+.cart__card {
+    display: flex;
+    padding: 5px 0;
+    align-items: center;
+    color: #000;
+}
+
+.cart__title {
+    font-size: 26px;
+    font-weight: 900;
+    margin-right: 30px;
+}
+
+.cart__title::before {
+    content: 'Название товара:';
+    font-size: 20px;
+    color: #080808;
+}
+
+.cart__price {
+    font-size: 26px;
+    font-weight: 900;
+    margin-right: 30px;
+}
+
+.cart__price::before {
+    content: 'Стоимость:';
+    font-size: 20px;
+    color: #020202;
+}
+
+.total__price {
+    text-align: center;
+    font-size: 36px;
+    color: #000000;
+    background-color: #fff;
+    padding: 50px;
+}
+
+.wrap{
+max-width: 800px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
